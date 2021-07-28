@@ -1,16 +1,11 @@
--- Create Two Tables
---CREATE TABLE olympics (
- -- Country_Code TEXT PRIMARY KEY,
- -- Nation TEXT,
- -- Medals_Won INT
---);
-
 DROP TABLE IF EXISTS olympics;
+DROP TABLE IF EXISTS athlete_events;
 
-CREATE TABLE olympics (
-  Code TEXT PRIMARY KEY,
-  Nation TEXT,
-  Medals INT
+-- Create Tables
+	CREATE TABLE olympics (
+	Country_Code TEXT PRIMARY KEY,
+	Nation TEXT,
+	Medals_Won INT
 );
 
 CREATE TABLE athlete_events (
