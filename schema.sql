@@ -8,11 +8,12 @@ DROP TABLE IF EXISTS athlete_events;
 	Medals_Won INT
 );
 
-CREATE TABLE athlete_events (
-  Country_Code TEXT PRIMARY KEY,
-  County_Name TEXT,
-  Event TEXT
-);
+	CREATE TABLE athlete_events (
+	id BIGSERIAL NOT NULL PRIMARY KEY,
+		Country_Code TEXT,
+		County_Name TEXT,
+		Event TEXT
+	);
 
 
 -- Query to check successful load
