@@ -1,2 +1,2 @@
 db_user="postgres"
-db_password="madhu"
+db_password="postgres"
