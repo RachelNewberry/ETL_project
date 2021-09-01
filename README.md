@@ -48,3 +48,10 @@ There were two tables created one for the Olympics data set and the other athlet
 
 The data was finally loaded and appended and confirmed that the data was been added by querying the Olympics and athlete_events table and joining the tables on country_id column.
  
+
+
+
+
+Rachel Newberry
+
+rachellnewberry@yahoo.com
